@@ -1,0 +1,153 @@
+* {
+    font-family: "Poppins", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 84px;
+    display: inline-block;
+
+}
+
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    cursor: pointer;
+    margin-right: 32px;
+
+
+}
+
+.button-header {
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    border: 1px solid #4cb538;
+    left: 420px;
+    background: #4CB538;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.logo-image {
+    width: 595.18px;
+    height: 500px;
+    margin-top: 163px;
+    margin-left: 121px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 84.82px;
+    width: 493px;
+}
+
+
+
+h1 {
+    font-weight: 700;
+    color: #161A49;
+    font-size: 62px;
+    line-height: 82px;
+    width: 600px;
+    letter-spacing: 0.596154px;
+
+
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    width: 493px;
+    color: #4B505A;
+    letter-spacing: 0.5px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+
+
+
+}
+
+.p2 {
+
+    color: #6FBF44;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+    cursor: pointer;
+    letter-spacing: 1px;
+    background: transparent;
+    border: none;
+}
+
+@media screen and (max-width:750px) {
+    .link-header {
+        display: none;
+    }
+
+    p {
+        width: 304;
+        height: 165;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        text-align: center;
+
+
+
+    }
+
+    img {
+        position: relative;
+        
+        top: 490px;
+
+
+    }
+
+    h1 {
+
+        height: 60px;
+        font-weight: 700;
+
+
+        text-align: center;
+        position: relative;
+        bottom: 616px;
+    }
+
+    .button-header {
+        position: fixed;
+        left: 575px;
+        top: 20px;
+    }
+}
+
+p {
+    position: fixed;
+    top: 230px;
+text-align: center;}
+
+.p2 { position: relative;
+    left: 200px;
+    bottom: 400px;
+
+}
+
+
+    
+ 
